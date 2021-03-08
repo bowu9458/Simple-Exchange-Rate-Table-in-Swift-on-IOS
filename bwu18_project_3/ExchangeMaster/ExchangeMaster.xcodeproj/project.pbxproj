@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9219807F2579C37300FAF61C /* BuyExchangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219807E2579C37300FAF61C /* BuyExchangeVC.swift */; };
+		921980852579C9F400FAF61C /* PurchasedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921980842579C9F400FAF61C /* PurchasedVC.swift */; };
+		921980872579CA3C00FAF61C /* PurchasedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921980862579CA3C00FAF61C /* PurchasedCell.swift */; };
+		921980952579D95A00FAF61C /* PurchasedExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921980932579D95A00FAF61C /* PurchasedExchange.swift */; };
+		921980962579D95A00FAF61C /* PurchasedExchangeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921980942579D95A00FAF61C /* PurchasedExchangeItem.swift */; };
+		921980982579DA1B00FAF61C /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921980972579DA1B00FAF61C /* ExchangeInfo.swift */; };
+		9219809A2579DA3400FAF61C /* ExchangeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921980992579DA3400FAF61C /* ExchangeHelper.swift */; };
+		9219809E2579DAE600FAF61C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219809D2579DAE600FAF61C /* Utils.swift */; };
+		921980A02579DAF800FAF61C /* FileManager+Minders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219809F2579DAF800FAF61C /* FileManager+Minders.swift */; };
+		922C0409257C507B008CC8E1 /* infoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922C0408257C507B008CC8E1 /* infoVC.swift */; };
+		922C040C257C52F4008CC8E1 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922C040B257C52F4008CC8E1 /* BundleExtension.swift */; };
+		923D699E257B32AA002864D6 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D699D257B32AA002864D6 /* SettingVC.swift */; };
+		923D69A0257B441E002864D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923D699F257B441E002864D6 /* Constants.swift */; };
+		92F56B6725796A7200DF6867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F56B6625796A7200DF6867 /* AppDelegate.swift */; };
+		92F56B6925796A7200DF6867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F56B6825796A7200DF6867 /* SceneDelegate.swift */; };
+		92F56B6E25796A7200DF6867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F56B6C25796A7200DF6867 /* Main.storyboard */; };
+		92F56B7125796A7200DF6867 /* ExchangeMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92F56B6F25796A7200DF6867 /* ExchangeMaster.xcdatamodeld */; };
+		92F56B7325796A7400DF6867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F56B7225796A7400DF6867 /* Assets.xcassets */; };
+		92F56B7625796A7400DF6867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F56B7425796A7400DF6867 /* LaunchScreen.storyboard */; };
+		92F56B7E257975A600DF6867 /* ExchangeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F56B7D257975A600DF6867 /* ExchangeViewCell.swift */; };
+		92F56B8125797A2900DF6867 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92F56B8325797A2900DF6867 /* Localizable.strings */; };
+		92F56B8825797D5F00DF6867 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F56B8725797D5F00DF6867 /* ExchangeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9219807E2579C37300FAF61C /* BuyExchangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyExchangeVC.swift; sourceTree = "<group>"; };
+		921980842579C9F400FAF61C /* PurchasedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedVC.swift; sourceTree = "<group>"; };
+		921980862579CA3C00FAF61C /* PurchasedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedCell.swift; sourceTree = "<group>"; };
+		921980932579D95A00FAF61C /* PurchasedExchange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasedExchange.swift; sourceTree = "<group>"; };
+		921980942579D95A00FAF61C /* PurchasedExchangeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasedExchangeItem.swift; sourceTree = "<group>"; };
+		921980972579DA1B00FAF61C /* ExchangeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
+		921980992579DA3400FAF61C /* ExchangeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeHelper.swift; sourceTree = "<group>"; };
+		9219809D2579DAE600FAF61C /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9219809F2579DAF800FAF61C /* FileManager+Minders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Minders.swift"; sourceTree = "<group>"; };
+		922C0408257C507B008CC8E1 /* infoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoVC.swift; sourceTree = "<group>"; };
+		922C040B257C52F4008CC8E1 /* BundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		923D699D257B32AA002864D6 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		923D699F257B441E002864D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		92F56B6325796A7100DF6867 /* ExchangeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F56B6625796A7200DF6867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92F56B6825796A7200DF6867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92F56B6D25796A7200DF6867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92F56B7025796A7200DF6867 /* ExchangeMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeMaster.xcdatamodel; sourceTree = "<group>"; };
+		92F56B7225796A7400DF6867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92F56B7525796A7400DF6867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92F56B7725796A7400DF6867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F56B7D257975A600DF6867 /* ExchangeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewCell.swift; sourceTree = "<group>"; };
+		92F56B8225797A2900DF6867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92F56B8425797A3500DF6867 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		92F56B8725797D5F00DF6867 /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92F56B6025796A7100DF6867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921980802579C58400FAF61C /* In-App Rate */ = {
+			isa = PBXGroup;
+			children = (
+				9219807E2579C37300FAF61C /* BuyExchangeVC.swift */,
+				92F56B7D257975A600DF6867 /* ExchangeViewCell.swift */,
+				92F56B8725797D5F00DF6867 /* ExchangeViewController.swift */,
+			);
+			name = "In-App Rate";
+			sourceTree = "<group>";
+		};
+		921980812579C59500FAF61C /* Buyed Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				921980842579C9F400FAF61C /* PurchasedVC.swift */,
+				921980862579CA3C00FAF61C /* PurchasedCell.swift */,
+			);
+			path = "Buyed Exchange";
+			sourceTree = "<group>";
+		};
+		921980922579D83100FAF61C /* ExchangeModel */ = {
+			isa = PBXGroup;
+			children = (
+				921980992579DA3400FAF61C /* ExchangeHelper.swift */,
+				921980972579DA1B00FAF61C /* ExchangeInfo.swift */,
+				921980932579D95A00FAF61C /* PurchasedExchange.swift */,
+				921980942579D95A00FAF61C /* PurchasedExchangeItem.swift */,
+			);
+			name = ExchangeModel;
+			sourceTree = "<group>";
+		};
+		9219809B2579DA7D00FAF61C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				922C040B257C52F4008CC8E1 /* BundleExtension.swift */,
+				9219809F2579DAF800FAF61C /* FileManager+Minders.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9219809C2579DAB600FAF61C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9219809D2579DAE600FAF61C /* Utils.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		922C040A257C5082008CC8E1 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				922C0408257C507B008CC8E1 /* infoVC.swift */,
+			);
+			name = info;
+			sourceTree = "<group>";
+		};
+		923D699C257B3281002864D6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				923D699D257B32AA002864D6 /* SettingVC.swift */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		92F56B5A25796A7100DF6867 = {
+			isa = PBXGroup;
+			children = (
+				92F56B6525796A7100DF6867 /* ExchangeMaster */,
+				92F56B6425796A7100DF6867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92F56B6425796A7100DF6867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92F56B6325796A7100DF6867 /* ExchangeMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92F56B6525796A7100DF6867 /* ExchangeMaster */ = {
+			isa = PBXGroup;
+			children = (
+				923D699F257B441E002864D6 /* Constants.swift */,
+				9219809C2579DAB600FAF61C /* Utility */,
+				9219809B2579DA7D00FAF61C /* Extension */,
+				921980922579D83100FAF61C /* ExchangeModel */,
+				922C040A257C5082008CC8E1 /* info */,
+				923D699C257B3281002864D6 /* Setting */,
+				921980812579C59500FAF61C /* Buyed Exchange */,
+				921980802579C58400FAF61C /* In-App Rate */,
+				92F56B6625796A7200DF6867 /* AppDelegate.swift */,
+				92F56B6825796A7200DF6867 /* SceneDelegate.swift */,
+				92F56B6C25796A7200DF6867 /* Main.storyboard */,
+				92F56B7225796A7400DF6867 /* Assets.xcassets */,
+				92F56B7425796A7400DF6867 /* LaunchScreen.storyboard */,
+				92F56B7725796A7400DF6867 /* Info.plist */,
+				92F56B6F25796A7200DF6867 /* ExchangeMaster.xcdatamodeld */,
+				92F56B8325797A2900DF6867 /* Localizable.strings */,
+			);
+			path = ExchangeMaster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92F56B6225796A7100DF6867 /* ExchangeMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F56B7A25796A7400DF6867 /* Build configuration list for PBXNativeTarget "ExchangeMaster" */;
+			buildPhases = (
+				92F56B5F25796A7100DF6867 /* Sources */,
+				92F56B6025796A7100DF6867 /* Frameworks */,
+				92F56B6125796A7100DF6867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExchangeMaster;
+			productName = ExchangeMaster;
+			productReference = 92F56B6325796A7100DF6867 /* ExchangeMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92F56B5B25796A7100DF6867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = bwu18;
+				TargetAttributes = {
+					92F56B6225796A7100DF6867 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 92F56B5E25796A7100DF6867 /* Build configuration list for PBXProject "ExchangeMaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 92F56B5A25796A7100DF6867;
+			productRefGroup = 92F56B6425796A7100DF6867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F56B6225796A7100DF6867 /* ExchangeMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92F56B6125796A7100DF6867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F56B7625796A7400DF6867 /* LaunchScreen.storyboard in Resources */,
+				92F56B8125797A2900DF6867 /* Localizable.strings in Resources */,
+				92F56B7325796A7400DF6867 /* Assets.xcassets in Resources */,
+				92F56B6E25796A7200DF6867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92F56B5F25796A7100DF6867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9219809A2579DA3400FAF61C /* ExchangeHelper.swift in Sources */,
+				92F56B7E257975A600DF6867 /* ExchangeViewCell.swift in Sources */,
+				92F56B8825797D5F00DF6867 /* ExchangeViewController.swift in Sources */,
+				921980962579D95A00FAF61C /* PurchasedExchangeItem.swift in Sources */,
+				9219809E2579DAE600FAF61C /* Utils.swift in Sources */,
+				922C0409257C507B008CC8E1 /* infoVC.swift in Sources */,
+				921980872579CA3C00FAF61C /* PurchasedCell.swift in Sources */,
+				9219807F2579C37300FAF61C /* BuyExchangeVC.swift in Sources */,
+				921980982579DA1B00FAF61C /* ExchangeInfo.swift in Sources */,
+				923D699E257B32AA002864D6 /* SettingVC.swift in Sources */,
+				92F56B6725796A7200DF6867 /* AppDelegate.swift in Sources */,
+				922C040C257C52F4008CC8E1 /* BundleExtension.swift in Sources */,
+				921980852579C9F400FAF61C /* PurchasedVC.swift in Sources */,
+				921980A02579DAF800FAF61C /* FileManager+Minders.swift in Sources */,
+				92F56B7125796A7200DF6867 /* ExchangeMaster.xcdatamodeld in Sources */,
+				92F56B6925796A7200DF6867 /* SceneDelegate.swift in Sources */,
+				921980952579D95A00FAF61C /* PurchasedExchange.swift in Sources */,
+				923D69A0257B441E002864D6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92F56B6C25796A7200DF6867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F56B6D25796A7200DF6867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92F56B7425796A7400DF6867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F56B7525796A7400DF6867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92F56B8325797A2900DF6867 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F56B8225797A2900DF6867 /* en */,
+				92F56B8425797A3500DF6867 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92F56B7825796A7400DF6867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92F56B7925796A7400DF6867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92F56B7B25796A7400DF6867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExchangeMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwu18.ExchangeMaster;
+				PRODUCT_NAME = ExchangeMaster;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92F56B7C25796A7400DF6867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExchangeMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwu18.ExchangeMaster;
+				PRODUCT_NAME = ExchangeMaster;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92F56B5E25796A7100DF6867 /* Build configuration list for PBXProject "ExchangeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F56B7825796A7400DF6867 /* Debug */,
+				92F56B7925796A7400DF6867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F56B7A25796A7400DF6867 /* Build configuration list for PBXNativeTarget "ExchangeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F56B7B25796A7400DF6867 /* Debug */,
+				92F56B7C25796A7400DF6867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92F56B6F25796A7200DF6867 /* ExchangeMaster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92F56B7025796A7200DF6867 /* ExchangeMaster.xcdatamodel */,
+			);
+			currentVersion = 92F56B7025796A7200DF6867 /* ExchangeMaster.xcdatamodel */;
+			path = ExchangeMaster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92F56B5B25796A7100DF6867 /* Project object */;
+}

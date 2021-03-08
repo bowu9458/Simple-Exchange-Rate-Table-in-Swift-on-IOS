@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  ExchangeMaster
+
+  Created by bo wu on 12/3/20.
+  Copyright © 2020 bwu18. All rights reserved.
+*/
+
+"str_app_title" = "ExchangeTracer";
+"str_copyright" = "Copyright@2020";
+
+"str_rate"   = "Rate";
+"str_buy"    = "Purchase";
+
+"str_history"      = "History";
+
+"str_code"        = "Code:";
+"str_amount"      = "Amount:";
+
+"str_submit"     = "Submit";
+"str_cancel"     = "Cancel";
+
+"str_cancelMsg"     =  "Do you wanna cancel current purchase?";
+"str_badInput"      =  "The input amount is invaid!";
+
+"str_warning"      =  "Warning";
+
+"str_yes"          =  "Yes";
+"str_no"          =  "No";
+
+"str_setting"     = "Setting";
+"str_light_gray_mode"  = "LightGrayMode:";
+"str_purchase_date" = "PurchaseDate:";
+"str_tip"        =" ShowTip:";

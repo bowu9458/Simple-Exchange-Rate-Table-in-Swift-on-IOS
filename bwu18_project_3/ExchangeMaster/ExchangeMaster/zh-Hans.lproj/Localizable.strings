@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  ExchangeMaster
+
+  Created by bo wu on 12/3/20.
+  Copyright © 2020 bwu18. All rights reserved.
+*/
+
+"str_app_title" = "ExchangeTracer";
+"str_copyright" = "版权@2020";
+
+"str_rate"   = "汇率";
+"str_buy"    = "购买";
+
+"str_history"      = "历史记录";
+
+"str_code"        = "代码：";
+"str_amount"      = "数量";
+
+"str_submit"     = "提交";
+"str_cancel"     = "取消";
+
+
+"str_cancelMsg"     =  "是否取消当前购买？";
+"str_badInput"      =  "输入数量是无效的!";
+
+
+"str_warning"      =  "警告";
+
+"str_yes"          =  "是的";
+"str_no"          =  "否";
+
+"str_setting"     = "设置";
+"str_light_gray_mode"  = "浅灰模式:";
+"str_purchase_date" = "显示购买日期:";
+"str_tip"        ="显示提示:";
